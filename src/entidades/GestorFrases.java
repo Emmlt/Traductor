@@ -92,7 +92,7 @@ public class GestorFrases {
         String idiomaFormateado = convertirAPascalCase(idioma);
 
         String nombreArchivo = fraseFormateada + "-" + idiomaFormateado + ".mp3";
-        String ruta = "bin/audio/" + nombreArchivo;
+        String ruta = "audio/" + nombreArchivo;
 
         File archivo = new File(ruta);
         if (!archivo.exists()) {
